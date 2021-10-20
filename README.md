@@ -1,18 +1,19 @@
-# Salesforce DX Project: Next Steps
+## Job description
+Please create an lwc component that can be added to any record page. Name this component “Child Auditor” – please look at the picture below.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Business logic:
+1)	This component should be able to show a list of all related child objects.
+2)	Also, the current amount of object records should be displayed next to each child object name.
+3)	The component should have a button named "Refresh" to refresh component data immediately.
+![image](https://user-images.githubusercontent.com/84872903/138103977-a146553b-58b2-49dd-bb94-68eab262176a.png)
 
-## How Do You Plan to Deploy Your Changes?
+After all requirements are implemented, please provide a link to your github SFDX project. 
+## Job performance
+This component must be added to the object record page. After loading the object record page, the component shows the number of associated records with this object record. 
+![Screenshot_6](https://user-images.githubusercontent.com/84872903/138104249-f39cb36b-94e9-4c73-a116-de803a047380.png)
+If there are no entries, the component will be empty.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+![Screenshot_1](https://user-images.githubusercontent.com/84872903/138104258-4b6ee354-4342-49cc-86a2-850209edb26d.png)
 
-## Configure Your Salesforce DX Project
+The component has a "refresh" button, which, when clicked, updates information about related records.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
